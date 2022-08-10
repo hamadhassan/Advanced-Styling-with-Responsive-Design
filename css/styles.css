@@ -18,12 +18,20 @@ h2{
 h3{
     text-transform: uppercase;
 }
-.content{
-    width: 30%;
-    display: inline-block;
-    text-align: center;
-    margin: 2px;
-}
+
 .content p{
+    margin: 2px;
     text-align: justify;
+}
+.content h3{
+    text-align: center;
+}
+
+@media screen and (min-width:778px) 
+{
+    .content{
+        width: 30%;
+        display: inline-block;
+        float:left;
+    }
 }
