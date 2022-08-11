@@ -1,0 +1,37 @@
+main{
+    width: 95%;
+    margin: 0 auto;
+}
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(34, 34, 34);
+}
+
+h1{
+    text-align: center;
+    font-size: 300%;
+}
+
+h2{
+    text-align: center;
+}
+h3{
+    text-transform: uppercase;
+}
+
+.content p{
+    margin: 2px;
+    text-align: justify;
+}
+.content h3{
+    text-align: center;
+}
+
+@media screen and (min-width:778px) 
+{
+    .content{
+        width: 30%;
+        display: inline-block;
+        float:left;
+    }
+}
