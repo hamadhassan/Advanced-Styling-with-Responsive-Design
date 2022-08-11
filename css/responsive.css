@@ -1,0 +1,40 @@
+header {
+    background-color: blue;
+    padding: 1%;
+    ma
+}
+h1{
+    text-align: center;
+}
+nav a{
+   background-color: white;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 35px;
+   border: 1px solid black;
+   display: block;
+   padding: 2%;
+   margin: 2%;
+}
+body{
+    background-color: rgb(193, 208, 224);
+}
+.student{
+    border: 2px solid black;
+}
+.student p {
+    width: 30%;
+    display: inline-block;
+    padding: 1%;
+}
+.student span{
+    font-weight: bold;
+}
+footer{
+    margin-top: 1%;
+    background-color: blue;
+    padding: 1px 0px 1px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
